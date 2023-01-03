@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+/* font-family: 'Kumbh Sans', sans-serif; */
+
+/* by default add this  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Kumbh Sans', sans-serif;
+    background-color: hsl(185, 75%, 39%);
+
+    /* to put whole container in center */
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    /* to put whole container in center */
+
+}
+
+.container{
+    /* to put whole container in center */
+    margin: 0 auto;
+    /* to put whole container in center */
+    text-align: center;
+}
+
+/* wrapper = img avatar, victor, footer */
+.wrapper{
+    max-width: 420px;
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;  /* to make top corner curves */
+    /* margin: 1rem; */
+}
+
+.content img{
+    /* width: 100px;
+    height: 100px; */
+    border-radius: 50%;
+    border: 4px solid rgb(255, 255, 255);
+    margin-top: -50px; /* to take img at the topmiddle */
+
+}
+
+.content h2{
+    margin-top: 20px;
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    margin-bottom: 10px;  /*space below the name */
+}
+.content h2 span{
+    font-weight: lighter ;
+    color: hsl(227, 10%, 46%);
+}
+
+.content p{
+   
+    color: hsl(227, 10%, 46%);
+    font-size: 13px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid hsla(227, 10%, 46%,0.16) ;
+    padding: 30px 50px ;  /*TOP BOTTOM RIGHT LEFT*/
+    margin-top: 30px;
+}
+
+
+.footer p.num{
+    font-size: 18px;
+    color:  hsl(229, 23%, 23%);
+    font-weight: bold;
+}
+
+.footer p{
+    color:  hsl(0, 0%, 59%);
+    font-weight:lighter;
+}
